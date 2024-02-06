@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.headers.common["x-api-key"] = "cheia ta"; // Adăugați cheia dvs. aici
+axios.defaults.headers.common["x-api-key"] = "live_yYX6ybRXEUD8QLYDcAHxqxnkYxiaQubAiYwwRoPibnqnU2MZQhcnieqEH3PtLhEm"; // Adăugați cheia dvs. aici
 
 export function fetchBreeds() {
   return axios.get("https://api.thecatapi.com/v1/breeds")

@@ -8,7 +8,10 @@ body {
     margin: 0;
 }
 
-.loader,
+.loader{
+    display: none;
+    color: green;
+}
 .error {
     display: none;
     color: red;
